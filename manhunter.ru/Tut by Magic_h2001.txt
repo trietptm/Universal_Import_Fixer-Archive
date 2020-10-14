@@ -1,0 +1,23 @@
+
+Needed Patterns for unpacking eXpressor 1.5.0.1 full protection:
+
+
+
+Magic IAT jump:
+
+53 56 57 0F 84 3C 01 00 00
+
+
+
+Directly Imports:
+
+83 C0 05 8B 4D F8 2B C8 8B 45 EC 89 08
+
+
+
+near OEP:
+
+5F 5E 5B 8B E5 5D EB 01
+
+
+by: Magic_h2001
